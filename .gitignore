@@ -1,0 +1,33 @@
+# 파이썬 바이트코드
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 가상환경
+.venv/
+venv/
+env/
+backend/venv/
+
+# 환경 변수 파일
+.env
+.env.*
+*.env
+*.env.*
+backend/.env
+backend/.env.*
+backend/.env.local
+backend/.env.local.*
+
+# 예시 파일(커밋 허용)
+!*.env.example
+!*.example
+!backend/.env.local.example
+
+# 운영체제 / 에디터 임시파일
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
